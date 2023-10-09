@@ -1,0 +1,14 @@
+one to one = um para um
+-||-------------||-
+
+1 para 0 ou 1
+-||--------0|-
+
+one to many = 1 para muitos
+-||----------|<-
+
+1 para 0 ou muitos
+-||-----------0<-
+
+many to many = muitos para muitos
+->|---------------|<-

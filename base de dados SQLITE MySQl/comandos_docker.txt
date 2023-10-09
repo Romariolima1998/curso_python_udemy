@@ -1,0 +1,18 @@
+para criar um conteyner
+docker-compose up
+deve estar na pasta do arquivo docker-compose.yml
+
+
+para listar os containers rodando
+docker ps 
+
+listar containers existentes
+docker ps -a 
+
+
+para subir o container e liberar terminal
+docker-compose up -d 
+docker container start iddocontainer
+
+para parar um containers
+docker container stop iddocontainer

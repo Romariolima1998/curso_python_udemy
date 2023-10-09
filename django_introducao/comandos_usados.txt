@@ -1,0 +1,19 @@
+criar pasta
+mkdir nome
+
+django-admin
+
+lista de bibliotecas
+pip freeze
+
+criar um projeto django
+django-admin startproject nome_do projeto .
+
+apagar pasta
+rm -Rf nome_da_pasta
+
+para rodar um projeto
+python manage.py runserver
+
+para iniciar um app
+mangae.py startapp nome_do_app
