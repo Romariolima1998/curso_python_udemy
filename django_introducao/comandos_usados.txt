@@ -1,19 +1,20 @@
 criar pasta
 mkdir nome
 
-django-admin
-
 lista de bibliotecas
 pip freeze
-
-criar um projeto django
-django-admin startproject nome_do projeto .
+pip freeze > requirements.txt
 
 apagar pasta
 rm -Rf nome_da_pasta
+
+
+
+django-admin criar projeto
+django-admin startproject nome_do projeto .
 
 para rodar um projeto
 python manage.py runserver
 
 para iniciar um app
-mangae.py startapp nome_do_app
+python manage.py startapp nome_do_app
