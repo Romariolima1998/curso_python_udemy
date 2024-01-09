@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>meu titulo</h1>
+    <h2>meu titulo</h2>
+    <h3>meu titulo</h3>
+    <h4>meu titulo</h4>
+    <h5>meu titulo</h5>
+    <h6>meu titulo</h6>
+
+    <p>parafrafo</p>
+
+    <b>'bold' deixa em negrito e pode ir dentro da tag p</b>
+
+    <strong>deixa a frase em evidencia como a tag h, tambem deixa em negrito</strong>
+
+    <i> italico </i>
+
+    <em>da enfase de deixa em italico</em>
+
+    <a href="www.link.com" target="_blank"> link . target para abrir em uma nova guia</a>
+
+    tag de imagem img
+    <img src="https://img.freepik.com/vetores-gratis/vetor-de-gradiente-de-logotipo-colorido-de-passaro_343694-1365.jpg?w=826&t=st=1704461540~exp=1704462140~hmac=b52f8cd96c2a0e584ba23254c4419b6b9554740cb4408d5f3855639867532fd6" alt="descreva a imagem aki" width="50" height="44">
+
+    <del> risca ao meio tem um valor de exclusao </del>
+
+    <s>apenas um risco no meio</s>
+
+    <ins> linha em baixo  valor de inserçao</ins>
+
+    <u>apenas uma linha em baixo underline</u>
+
+    <small> deixa o texto menor</small>
+
+    <sup>texto elevado</sup>
+
+    <sub> texto rebaixado </sub>
+
+    <br> quebra de linha
+
+    <q>entre aspas valor citaçao</q>
+
+    <code> citaçao de um codigo </code>
+
+    <span style="color: brown;"> container generico, serve para aplicar o css em um determinado texto</span>
+
+
+    tags para uso fora da tag <p></p>
+
+    <blockquote cite="www.link-DA-CITACAO"> bloco de citaçao </blockquote>
+
+    <hr> linha de divisao de blocos tela
+
+    <pre> codigos pre formatados com espaços e quebra de linha vc pode
+        usar a tag <code> dentro,  seu codigo com quebra de linha e indentaçao aki</code>
+    </pre>
+ 
+    <div>container generico display block</div>
+
+
+    lista nao ordenada
+    <ul>
+        <li>primeiro item da lista</li>
+        <li> segundo item da lista</li>
+        <li> terceiro item da lista</li>
+    </ul>
+
+
+    lista ordenada
+    <ol>
+        <li>primeiro item da lista</li>
+        <li> segundo item da lista</li>
+        <li> terceiro item da lista</li>
+    </ol>
+
+    <hr>
+
+
+reprodutor de audio
+    <audio controls controlsList="nodownload">
+        <source src="./Stay With Me.mp3" type="audio/mp3">
+        Seu navegador não suporta a tag de áudio.
+    </audio>
+
+    reprodutor de video
+    <video width="640" height="360" controls>
+        <source src="./The Outfield .mp4" type="video/mp4">
+        Seu navegador não suporta a tag de vídeo.
+    </video>
+
+    tela que exibe outro site
+      <iframe
+  width="400"
+  height="215"
+  frameborder="0"
+  scrolling="no"
+  marginheight="0"
+  marginwidth="0"
+  src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=buenos+aires&amp;sll=37.0625,-95.677068&amp;sspn=38.638819,80.859375&amp;t=h&amp;ie=UTF8&amp;hq=&amp;hnear=Buenos+Aires,+Argentina&amp;z=11&amp;ll=-34.603723,-58.381593&amp;output=embed">
+</iframe>
+
+form para envio de formulario pelos metodos post e get
+ input para introduçao de caracteres
+<!-- Um formulário comum que inclui tags input -->
+<form action="getform.php" method="get">
+    Nome: <input type="text" name="nome" /><br />
+    Sobrenome: <input type="text" name="sobrenome" /><br />
+    E-mail: <input type="email" name="email_usuario" /><br />
+    <input type="submit" value="Enviar" />
+  
+    numero
+    <input type="number">
+    url
+    <input type="url">
+    telefone
+    <input type="tel">
+    senha
+    <input type="password">
+</form>
+  <hr>
+
+  form para envio de formularios
+  label para escrever algo
+  select cria uma lista
+  option sao as opçoes da lista
+  <form method="post" action="url">
+    <label for="frutas">Escolha uma fruta:</label>
+    <select id="frutas" name="fruta">
+        <option value="maca">Maçã</option>
+        <option value="banana">Banana</option>
+        <option value="uva">Uva</option>
+        <option value="laranja">Laranja</option>
+    </select>
+    <input type="submit" value="Enviar">
+    
+    <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>

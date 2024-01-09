@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html lists</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .header {
+            background-color: rgba(0,0,0, 0.5);
+            display: flex;
+            align-items: center;
+        }
+
+        .header ul a {
+            color: aliceblue;
+            text-decoration: none;
+            font-family:sans-serif;
+            display: block;
+            padding: 10px 20px;
+          
+        }
+
+        .header ul a:hover {
+            background-color: rgba(0,0,0, 0.5);
+        }
+
+        .header ul {
+            display: flex;
+            list-style-type: none;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="header">
+        <ul>
+            <li><a href="#"> Home</a></li>
+            <li><a href="#"> Abolt</a></li>
+            <li><a href="#"> Products</a></li>
+        </ul>
+    </nav>
+
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ul>
+
+    <ol type="I" start="3">
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+    </ol>
+
+    <dl>
+        <dt>cafe</dt>
+        <dd>bebida preta quente</dd>
+        <dt>cafe</dt>
+        <dd>bebida preta quente</dd>
+    </dl>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="#" method="post" >
+        <p>meu formulario</p>
+
+        <p>
+            <label for="name"> nome: </label> <br>
+            <input type="text" id="name"
+             name="name" placeholder="seu nome"
+             required>
+        </p>
+        
+        <p>
+            <label>
+                sou dev:
+                <input type="checkbox" id="dev"
+                value="True" name="dev">
+            </label>
+        </p>
+
+        <p>
+            <label >
+                Masculino
+                <input type="radio" value="masculino" name="genero">
+            </label>
+            <br>
+            <label >
+                Feminino
+                <input type="radio" value="feminino" name="genero">
+            </label>
+            <br>
+            <label >
+                nao dizer
+                <input type="radio" value="none" name="genero">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                data:
+                <input type="date" id="date"
+                name="date">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                data time:
+                <input type="datetime-local" id="datetime"
+                name="datetime">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                time:
+                <input type="time" id="time"
+                name="time">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                cor:
+                <input type="color" value="#000000" id="color"
+                name="color" >
+            </label>
+        </p>
+
+        <p>
+            <label>
+                email:
+                <input type="email" placeholder="email@email.com"
+                id="date" name="date">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                arquivo:
+                <input type="file" id="file"
+                name="file" accept="image/*"
+                multiple>
+            </label>
+        </p>
+
+        <p>
+            <label>
+                numero:
+                <input type="number" id="number"
+                placeholder="digite um numero" min="0"
+                max="50" name="number">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                senha: <br>
+                <input type="password" id="password"
+                placeholder="digite sua senha" name="password">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                range:
+                <input type="range" id="range"
+                 min="0" max="10" name="range">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                url:
+                <input type="url" id="url"
+                placeholder="digite o url" name="url">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                pesquisa: <br>
+                <input type="search" id="search"
+                placeholder="pesquisar" name="search">
+            </label>
+        </p>
+
+        <p>
+            <label>
+                selecione uma opçao
+                <select name="fruta" id="fruta">
+                    <option value="manga">manga</option>
+                    <option value="pera">pera</option>
+                    <option value="acerola">acerola</option>
+                </select>
+            </label>
+        </p>
+
+        <p>
+            <label>
+              textarea <br>
+              <textarea name="textarea" id="textarea" cols="30" rows="10">
+
+              </textarea>
+            </label>
+        </p>
+
+        <p>
+            <button type="reset">reset</button>
+            <button type="submit">enviar</button>
+        </p>
+    </form>
+</body>
+</html>
