@@ -1,0 +1,83 @@
+
+.heading {
+    transition: all 300ms ease-in-out;
+}
+
+/* enquanto sobre*/
+.heading:hover {
+    background-color: red;
+}
+
+/* ainda nao clicado*/
+a:link {
+    color: deeppink;
+}
+
+/* visitado*/
+a:visited {
+    color: blueviolet;
+}
+
+/* enquanto clicado*/
+a:active {
+    background-color: darkslategrey;
+    color: azure;
+}
+
+input:focus {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    outline: none;
+    border: 1px solid black;
+}
+
+input:disabled {
+    background-color: blue;
+    cursor: not-allowed;
+}
+
+input:enabled {
+
+}
+
+/* quando o atributo required esta ativo na tag*/
+input:required {
+background-color: aliceblue;
+}
+
+input:checked {
+    width: 40px;
+    height: 40px;
+}
+
+input:checked + p {
+    background-color: aqua;
+}
+
+.pai .lista li:first-child {
+    background-color: red;
+}
+
+.pai .lista li:last-child {
+    background-color: red;
+}
+
+/* negaçao, todo p menos os com classe .meio*/
+p:not(.meio) {
+    color: blue;
+}
+
+/* impares*/
+ul li:nth-child(odd) {
+    background-color: cadetblue;
+}
+
+/*pares*/
+ul li:nth-child(even) {
+    background-color: rgb(95, 112, 160);
+}
+
+/* contagem de 3 em 3*/
+ul li:nth-child(3n) {
+    background-color: rgb(95, 160, 95);
+}
+
