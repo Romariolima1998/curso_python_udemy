@@ -1,0 +1,31 @@
+/* 
+   !important
+
+    style
+   
+   (id)
+   100
+
+(classes, atributos, pseudo classes)
+  010
+
+(elementos e pseudo elementos)
+   001
+ */
+
+
+#p {
+    background-color: red;
+}
+
+.p {
+    background-color: blue;
+}
+
+p {
+    background-color: aquamarine;
+}
+
+p.p #p{
+    background-color: aqua;
+}
