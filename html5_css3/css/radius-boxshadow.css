@@ -1,0 +1,18 @@
+div {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.582);
+}
+.div1{
+    border-top-right-radius: 100px;
+}
+
+.div2 {
+    border-radius: 0 100px 0 0 ;
+}
+
+.div3 {
+    border-radius: 150px;
+}
