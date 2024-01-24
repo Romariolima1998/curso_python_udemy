@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     width: 100%;
-    border-bottom: 0.1rem solid var(--ligth-gray-color);
+    border-bottom: 0.1rem solid var(--light-gray-color);
 }
 
 .menu-content {

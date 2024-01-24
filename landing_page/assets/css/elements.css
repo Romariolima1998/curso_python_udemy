@@ -57,3 +57,30 @@ a {
 p {
     margin-bottom: 3rem;
 }
+
+.responsive-table {
+    overflow: hidden;
+    overflow-x: auto;
+}
+
+table caption {
+    font-style: italic;
+    font-size: 1.6rem;
+    text-align: left;
+    margin-bottom: 1.0rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table td, table th {
+    white-space: nowrap ;
+    padding: 1rem;
+    text-align: left;
+    border: 0.1rem solid var(--light-gray-color);
+}
+
+tfoot td, table th {
+    background-color: var(--light-gray-color);
+}
