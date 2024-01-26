@@ -16,12 +16,16 @@
 
     <div class="menu-spacing"></div>
     
+    <input id="close-menu" class=" close-menu" type="checkbox"
+     aria-label="close menu" role="button">
+     <label class="close-menu-label" for="close-menu" title="close menu"></label>
+
     <aside class="menu white-bg">
         <div class="main-content menu-content" >
-            <h1><a href="#intro">LOGO</a></h1>
+            <h1 onclick="getElementById('close-menu').checked=false;"><a href="#intro">LOGO</a></h1>
             
             <nav>
-                <ul>
+                <ul onclick="getElementById('close-menu').checked=false;">
                     <li><a href="#top3">intro</a></li>
                     <li><a href="#grid-one">top 3</a></li>
                     <li><a href="#gallery">gallery</a></li>
@@ -281,5 +285,7 @@
     <footer id="footer" class="footer white-bg ">
         <p> feito por: <a href="https://github.com/Romariolima1998" target="_blank"> Romário G Lima</a></p>
     </footer>
+
+    <a href="#intro" class="back-to-top">↑</a>
 </body>
 </html>
