@@ -83,7 +83,7 @@
     max-width: none; /* Remove max-width */
     max-height: none; /* Remove max-height */
     display: grid;
-    grid-template-columns: repeat(3, minmax(200px, 1fr)); /* Adjust column width as needed */
+    grid-template-columns: repeat(3, 1fr); /* Adjust column width as needed */
     gap: var(--gap);
     
   }
@@ -100,4 +100,104 @@
 
   .gallery-img img:hover {
     transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+  }
+
+  .contact-form {
+    grid-column: span 2;
+  }
+
+  .contact-form .form-grid {
+    border: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: var(--gap);
+  }
+
+  .form-grid legend {
+    font-style: italic;
+    font-size: 1.6rem;
+    margin-bottom: 3rem;
+  }
+
+  .form-group {
+    flex: 1 1 320px;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 1rem
+  }
+
+  .form-group input,
+  .form-group textarea {
+    border: none;
+    background-color: var(--white-color);
+    padding: 1.5rem 2rem;
+    width: 100%;
+    font-size: 3rem;
+    outline: none;
+  }
+
+  .form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 1rem 0.2rem var(--secundary-color);
+}
+
+  .form-group .button-form {
+    border: 0.5rem solid var(--white-color);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    padding: 1.5rem 2rem;
+    font-size: 3rem;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+  }
+
+  .form-group .button-form:hover {
+    background-color: var(--white-color);
+    color: var(--primary-color);
+  }
+
+  .form-group ::placeholder {
+    color: var(--light-gray-color);
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 1.6rem;
+
+  }
+
+  .footer a,
+  .footer p {
+    color: var(--primary-color);
+    margin: 0;
+    padding:   3rem 0;
+  }
+
+  @media (max-width: 800px) {
+    .intro-content, .grid {
+      grid-template-columns: 1fr;
+    }
+
+    .gallery-img {
+      grid-template-columns: 1fr 1fr;
+      
+      width: 100%;
+      max-width: 100%;
+      max-height: 100%;
+
+    }
+
+    .gallery-img img {
+      
+      width: 100%;
+      
+    }
+
+    .grid-one-content {
+      display: block;
+    
+    }
   }
