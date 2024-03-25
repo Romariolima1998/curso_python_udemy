@@ -1,0 +1,81 @@
+para criar uma classe
+div.minha-classe
+
+para criar um id
+div#meu-id
+
+para criar um elemento com conteudo
+div{meu conteudo}
+
+para criar varios elementos
+div*10
+
+para adicionar varios elementos enumerados 'o sifrao 
+sera substituido por numeros
+div#meu-id-$
+
+para elementos filho
+ul>li{teste $}*3
+
+para multiplicar o grupo
+ul>(li>a{conteudo})*3
+repetirar 3* o conteudo de dentro dos parentesis
+
+para atributos
+a[href='link-$']*3
+
+para elementos irmao
+header>h1+p
+
+abreviaçao de css
+width 100%
+w100p
+
+height 100vh
+h100vh
+
+margin 
+m10
+m1.0rem
+
+padding
+p10
+p10p = 10 %
+
+display
+flex
+df
+
+grid
+dg
+
+none
+dn 
+
+block
+db
+
+background
+bg
+
+background-color
+bgc
+
+background-image
+bgi
+
+top
+t
+
+bottom
+b
+
+right
+r
+
+left
+f
+
+float left
+fl
+

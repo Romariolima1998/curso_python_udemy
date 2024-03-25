@@ -1,0 +1,18 @@
+.grid {
+    display: inline-block;
+}
+
+.bg {
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+}
+
+.bg1 {
+    background-image: url(https://s1.static.brasilescola.uol.com.br/be/2022/06/paisagem-natural-floresta.jpg);
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: scroll;
+}
