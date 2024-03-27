@@ -9,6 +9,21 @@ refactor
 parte 3 -> melhorar meu codigo
 '''
 
+try:
+    import os
+    import sys
+
+    sys.path.append(
+        os.path.abspath(
+            os.path.join(
+                os.path.dirname(__file__),
+                '../src'
+            )
+        )
+    )
+except:
+    raise
+
 import unittest
 
 from baconcomovos import bacon_com_ovos
@@ -67,5 +82,5 @@ class TestBaconComOvos(unittest.TestCase):
                     msg=f'{entrada} nao retornou {saida}'
                     )
 
-
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)

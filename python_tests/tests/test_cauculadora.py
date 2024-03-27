@@ -47,5 +47,5 @@ class TestCalculadora(unittest.TestCase):
             subtrai(1, 'f')
 
 
-
-unittest.main(verbosity=2)
+if __name__ == '__main__':
+    unittest.main(verbosity=2)
